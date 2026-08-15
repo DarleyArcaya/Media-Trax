@@ -33,6 +33,7 @@ Select your operating system to download the latest version:
   <img src="screenshot/desktope_version.png" alt="Desktop Version" width="55%">
   <img src="screenshot/android_version.png" alt="Android Version" width="22%">
 </p>
+
 ## 🛠️ Project Architecture
 
 The repository is organized within the `src/` folder as follows:
