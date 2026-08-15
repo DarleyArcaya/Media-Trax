@@ -40,7 +40,7 @@ class DownloadVideo{
       final mbDownloaded = bytesDonwloaded / (1024 * 1024);
       final mbTotal = totalBytes / (1024 * 1024);
 
-      (mbDownloaded, mbTotal, stopwatch.elapsed);
+      onProgress?.call(mbDownloaded, mbTotal, stopwatch.elapsed);
     }
 
     
