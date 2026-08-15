@@ -3,7 +3,12 @@
 **MediaTrax** is a cross-platform application designed to download video and audio from URLs quickly and intuitively. The project includes a **Windows (Desktop)** version and an **Android (Mobile)** version.
 
 ---
+## 📱 Screenshots
 
+<p align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <img src="screenshot/desktope_version.png" alt="Desktop Version" width="55%">
+  <img src="screenshot/android_version.png" alt="Android Version" width="22%">
+</p>
 ## 🛠️ Project Architecture
 
 The repository is organized within the `src/` folder as follows:
