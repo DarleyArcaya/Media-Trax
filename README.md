@@ -22,8 +22,8 @@ Select your operating system to download the latest version:
 
 | Platform | Download | Version | Status |
 | :--- | :---: | :---: | :---: |
-| 🪟 **Windows** | [<img src="https://img.shields.io/badge/Download_Executable-0078D4?style=for-the-badge&logo=windows&logoColor=white" />](https://github.com/DarleyArcaya/Media-Trax/releases/download/v2026.8.0/MediaTrax_Setup.exe) | `v2026.08.0` | `Pre-release` |
-| 🤖 **Android** | [<img src="https://img.shields.io/badge/Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" />](https://github.com/DarleyArcaya/Media-Trax/releases/download/v2026.8.0/mediatrax.apk) | `v2026.08.0` | `Pre-release` |
+| 🪟 **Windows** | [<img src="https://img.shields.io/badge/Download_Executable-0078D4?style=for-the-badge&logo=windows&logoColor=white" />](https://github.com/DarleyArcaya/Media-Trax/releases/download/v2026.8.0/MediaTrax_Setup.exe) | `v2026.8.0` | `Pre-release` |
+| 🤖 **Android** | [<img src="https://img.shields.io/badge/Download_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" />](https://github.com/DarleyArcaya/Media-Trax/releases/download/v2026.8.0/mediatrax.apk) | `v2026.8.0` | `Pre-release` |
 
 ---
 
