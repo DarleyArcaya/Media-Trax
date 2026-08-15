@@ -3,15 +3,15 @@
 **MediaTrax** is a cross-platform application designed to download video and audio from URLs quickly and intuitively. The project includes a **Windows (Desktop)** version and an **Android (Mobile)** version.
 
 <p align="center">
- 
+  <!-- Stack Core -->
   <img src="https://img.shields.io/badge/Frontend-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Frontend Flutter" />
   <img src="https://img.shields.io/badge/Language-Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Language Dart" />
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Android-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Platforms" />
   <br />
-  
+  <!-- Key Engines / Libraries -->
   <img src="https://img.shields.io/badge/Windows%20Engine-yt--dlp-red?style=for-the-badge&logo=youtube&logoColor=white" alt="yt-dlp Engine" />
   <img src="https://img.shields.io/badge/Android%20Engine-YoutubeExplode-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YoutubeExplode Engine" />
-  <img src="https://img.shields.io/badge/Status-Pre--release-orange?style=for-the-badge" alt="Status Pre-release" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT" />
 </p>
 
 ---
