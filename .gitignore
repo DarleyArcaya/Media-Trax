@@ -1,0 +1,71 @@
+# ==========================================
+# Flutter / Dart
+# ==========================================
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/pubspec.lock
+
+# Android / iOS / Windows / macOS build items
+**/android/.gradle/
+**/android/app/build/
+**/android/local.properties
+**/ios/Pods/
+**/ios/Runner.xcworkspace
+**/windows/flutter/ephemeral/
+
+# IDE / Editor files
+**/.idea/
+**/.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ==========================================
+# Python (API Backend)
+# ==========================================
+**/__pycache__/
+*.py[cod]
+*$py.class
+**/.venv/
+**/venv/
+**/env/
+**/dist/
+**/build/
+*.spec
+
+# ==========================================
+# Releases / Compiled Binaries
+# ==========================================
+release/
+releases/
+relesase/
+*.apk
+*.aab
+*.exe
+*.msi
+*.zip
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+*.log
+*.tmp
+
+# ==========================================
+# Backend compiled/packaged in assets
+# ==========================================
+**/assets/backend/
+**/assets/backend/_internal/
+
+src/desktope code version/client/assets/backend/_internal/
