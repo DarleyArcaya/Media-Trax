@@ -1,69 +1,71 @@
 # MediaTrax 🎬🎵
 
-**MediaTrax** es una aplicación multiplataforma diseñada para descargar video y audio mediante URLs de forma rápida e intuitiva. El proyecto cuenta con una versión para **Windows (Desktop)** y una versión para **Android (Mobile)**.
+**MediaTrax** is a cross-platform application designed to download video and audio from URLs quickly and intuitively. The project includes a **Windows (Desktop)** version and an **Android (Mobile)** version.
 
 ---
 
-## 🛠️ Arquitectura del Proyecto
+## 🛠️ Project Architecture
 
-El repositorio está organizado dentro de la carpeta `src/` de la siguiente forma:
+The repository is organized within the `src/` folder as follows:
 
 ```text
 Media-Trax/
 ├── src/
 │   ├── desktope code version/
-│   │   ├── api/       # API Backend en Python (FastAPI / PyInstaller)
-│   │   └── client/    # Cliente de escritorio (Flutter)
+│   │   ├── api/       # Python Backend API (FastAPI / PyInstaller)
+│   │   └── client/    # Desktop Client (Flutter)
 │   └── mobile code version/
-│       └── mediatrax/ # App móvil nativa/multiplataforma (Flutter)
+│       └── mediatrax/ # Native/Cross-platform Mobile App (Flutter)
 └── README.md
 ```
 
-- **Versión Desktop:** Combina un backend ligero desarrollado en **Python** que gestiona la extracción/descarga del contenido y una interfaz gráfica moderna e interactiva construida en **Flutter**.
-- **Versión Mobile:** Aplicación nativa en **Flutter** optimizada para dispositivos Android.
+* **Desktop Version:** Combines a lightweight **Python** backend that handles content extraction/downloads with a modern and interactive graphical interface built with **Flutter**.
+* **Mobile Version:** A native **Flutter** application optimized for Android devices.
 
 ---
 
-## ✨ Características
+## ✨ Features
 
-- 📹 **Descarga de Video y Audio:** Extrae contenido audiovisual en alta calidad directamente desde enlaces web.
-- 💻 **Soporte Windows:** Interfaz cliente-servidor ultrarrápida.
-- 📱 **Soporte Android:** Experiencia fluida adaptada a pantallas táctiles.
-- 🎨 **Interfaz Moderna:** Diseño limpio e intuitivo desarrollado en Flutter.
-
----
-
-## 🚀 Requisitos e Instalación
-
-### Prerrequisitos
-
-- **Flutter SDK** (v3.x o superior)
-- **Python** (v3.10+ para el entorno de la API de Escritorio)
-- **Git**
+* 📹 **Video and Audio Downloads:** Extract audiovisual content in high quality directly from web links.
+* 💻 **Windows Support:** Fast client-server interface.
+* 📱 **Android Support:** Smooth experience optimized for touchscreens.
+* 🎨 **Modern Interface:** Clean and intuitive design built with Flutter.
 
 ---
 
-### 🏃‍♂️ Ejecución en Desarrollo
+## 🚀 Requirements & Installation
 
-#### 1. Versión Desktop (Escritorio)
+### Prerequisites
 
-**Backend (API Python):**
+* **Flutter SDK** (v3.x or higher)
+* **Python** (v3.10+ for the Desktop API environment)
+* **Git**
+
+---
+
+### 🏃‍♂️ Running in Development
+
+#### 1. Desktop Version
+
+**Backend (Python API):**
+
 ```bash
 cd "src/desktope code version/api"
-pip install -r requirements.txt  # Instalar dependencias
-python main.py                   # Iniciar servidor local
+pip install -r requirements.txt  # Install dependencies
+python main.py                   # Start local server
 ```
 
-**Cliente (Flutter Desktop):**
+**Client (Flutter Desktop):**
+
 ```bash
 cd "src/desktope code version/client"
 flutter pub get
 flutter run -d windows
 ```
 
-#### 2. Versión Mobile (Android)
+#### 2. Mobile Version (Android)
 
-Conecta tu dispositivo Android o inicia un emulador:
+Connect your Android device or start an emulator:
 
 ```bash
 cd "src/mobile code version/mediatrax"
@@ -73,6 +75,6 @@ flutter run
 
 ---
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto se distribuye bajo la licencia **Apache-2.0**.
+This project is distributed under the **Apache-2.0** license.
