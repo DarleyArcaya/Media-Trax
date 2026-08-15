@@ -11,7 +11,7 @@
   <!-- Key Engines / Libraries -->
   <img src="https://img.shields.io/badge/Windows%20Engine-yt--dlp-red?style=for-the-badge&logo=youtube&logoColor=white" alt="yt-dlp Engine" />
   <img src="https://img.shields.io/badge/Android%20Engine-YoutubeExplode-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YoutubeExplode Engine" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT" />
+  <img src="https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="License Apache 2.0" />
 </p>
 
 ---
